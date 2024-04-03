@@ -1,0 +1,14 @@
+.headerContainer {
+    height: 6rem;
+    padding: 0 3rem;
+    background-color: var(--light-beige);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuContainer a {
+    text-decoration: none;
+    color: var(--black);
+    padding: 1rem;
+}
