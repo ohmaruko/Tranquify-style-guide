@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Logo</title>
+        <title>Logos</title>
       </Head>
       <Header />
       <main>
-        Logo Page
+        Logos Page
       </main>
     </>
   );

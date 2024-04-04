@@ -10,10 +10,6 @@ export default function Header() {
 
     return (
         <header className={styles.headerContainer}>
-            {/* <div className={styles.logoContainer}>
-                <Image src='/images/logo-48px.svg' alt='logo' width={60} height={60} />
-                <Image src='/images/Tranquify-logo-text.svg' alt='tranquify' width={90} height={90} />
-            </div> */}
              <Link href="/">
                 <div className={styles.logoContainer}>
                     <Image src='/images/logo-48px.svg' alt='logo' width={60} height={60} />
@@ -22,7 +18,7 @@ export default function Header() {
             </Link>
 
             <div className={styles.menuContainer}>
-                <Link href='/logo'><div className={router.pathname === '/logo' ? styles.active : styles.link}>Logo</div> </Link>
+                <Link href='/logos'><div className={router.pathname === '/logos' ? styles.active : styles.link}>Logos</div> </Link>
 
                 <Link href='/graphics'><div className={router.pathname === '/graphics' ? styles.active : styles.link}>Graphics</div> </Link>
 
