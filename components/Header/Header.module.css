@@ -8,6 +8,15 @@
     align-items: center;
 }
 
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 1rem;
+    margin-left: 1rem; 
+}
+
 .menuContainer {
     display: flex;
     flex-direction: row;
