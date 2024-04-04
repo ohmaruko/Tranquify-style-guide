@@ -3,6 +3,14 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem;
   min-height: 20vh;
+}
+
+.appIntro {
+  width: 75%;
+}
+
+.groupInfo {
+  text-align: center;
 }
