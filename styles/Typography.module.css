@@ -2,17 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 20rem;
+    width: 60%;
+    margin: 0 auto;
+    font-size: var(--font-body);
+}
+
+.typographyTitle {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 52px;
 }
 
 .logoFont {
     display: flex;
     gap: 2rem;
+    margin-top: 73px;
+    align-items: flex-start;
 }
 
 .quicksand {
     text-align: center;
     font-size: var(--font-body);
+    font-family: 'Quicksand', sans-serif;
 }
 
 .logoFontUsage {
@@ -23,12 +33,19 @@
     background-color: var(--background-gray);
     border-radius: 30px;
     padding: 40px 15vw;
+    margin: 72px 0 122px 0;
 }
 
 .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.logoName {
+    font-family: 'Quicksand', sans-serif;
+    font-size: var(--font-logo);
+    color: var(--dark-green);
 }
 
 .bodyFont {
@@ -47,14 +64,16 @@
     align-items: center;
     background-color: var(--background-gray);
     border-radius: 30px;
-    padding: 40px 15vw;
+    padding: 40px 13vw;
+    margin: 72px 0 122px 0;
 }
 
-.fontTable {
+.fontRow {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 1rem;
-    font-size: var(--font-body)
+    grid-template-columns: 120px 180px 100px;
+    font-size: var(--font-body);
+    align-items: center;
+    margin: 20px 0;
 }
 
 .gridItem {
@@ -65,4 +84,32 @@
     color: var(--brown);
     font-weight: bold;
     text-decoration: underline;
+}
+
+.link:hover {
+    color: var(--dark-green);
+}
+
+.link:active {
+    color: var(--black);
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.heading {
+    font-size: var(--font-heading);
+}
+
+.subheading {
+    font-size: var(--font-subheading);
+}
+
+.smallBody {
+    font-size: var(--font-small-body);
+}
+
+.main h2 {
+    margin: 0;
 }
