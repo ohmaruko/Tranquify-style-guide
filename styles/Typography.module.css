@@ -1,0 +1,68 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20rem;
+}
+
+.logoFont {
+    display: flex;
+    gap: 2rem;
+}
+
+.quicksand {
+    text-align: center;
+    font-size: var(--font-body);
+}
+
+.logoFontUsage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: var(--background-gray);
+    border-radius: 30px;
+    padding: 40px 15vw;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bodyFont {
+    display: flex;
+    gap: 2rem;
+}
+
+.dmSans {
+    text-align: center;
+    font-size: var(--font-body);
+}
+
+.bodyFontUsage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-gray);
+    border-radius: 30px;
+    padding: 40px 15vw;
+}
+
+.fontTable {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    font-size: var(--font-body)
+}
+
+.gridItem {
+    width: 110px;
+}
+
+.link {
+    color: var(--brown);
+    font-weight: bold;
+    text-decoration: underline;
+}
