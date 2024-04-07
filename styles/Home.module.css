@@ -6,6 +6,8 @@
   padding: 3rem;
   min-height: 20vh;
   padding: 0;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .homeTitle {
