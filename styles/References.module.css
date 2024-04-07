@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: var(--font-body);
+}
+
+.main p {
+    margin-bottom:10px;
+}
+
+.referencesTitle {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 52px;
+    font-size: var(--font-logo);
+}
+
+.references {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 122px;
+    gap: 2rem;
+}
+
+.subheading {
+    font-size: var(--font-subheading);
+    font-weight: bold;
+}
+
+.bodyBold {
+    font-weight: bold;
+}

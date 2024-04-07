@@ -8,10 +8,14 @@ export default function Home() {
     <>
       <Head>
         <title>Tranquify Style Guide Home</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Header />
       <main className={styles.main}>
-        <Image src='/images/Tranquify-logo-text.svg' alt='tranquify' width={150} height={150} />
+        <h1 className={styles.homeTitle}>Tranquify</h1>
 
         <div className={styles.mascotContainer}>
           <Image src='/images/great-mascot.svg' alt='great-mascot' width={120} height={120} />

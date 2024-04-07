@@ -10,6 +10,7 @@
 .typographyTitle {
     font-family: 'Quicksand', sans-serif;
     margin-top: 52px;
+    font-size: var(--font-logo);
 }
 
 .logoFont {
