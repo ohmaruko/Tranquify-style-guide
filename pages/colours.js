@@ -103,7 +103,7 @@ export default function Home() {
             <p>Text on solid colour backgrounds (examples)</p>
           </div>
 
-          <div className={styles.examples}>
+          <div className={styles.textOnsolids}>
             <Image src="/images/text-on-solid-bg.svg" width={200} height={300} alt="text on solid example" />
             <Image src="/images/fav-button-example.svg" width={200} height={300} alt="favourites buttons" />
             <Image src="/images/meditations-example.svg" width={200} height={300} alt="meditation example" />
