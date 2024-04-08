@@ -63,3 +63,7 @@
     /* width: 60%; */
     gap: 2rem;
 }
+
+.span {
+    font-weight: 550;
+}

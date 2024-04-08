@@ -63,7 +63,7 @@ export default function Home() {
               Each icon is accompanied by label text, ensuring that users can read the label
               even if they are unsure of the icon's meaning.
               We use icons from <Link href="https://fonts.google.com/icons">Google </Link>
-              as they offer simplicity and align with user expectations for design.</p>
+              as they offer simplicity and aligns with user expectations for design.</p>
           </div>
         </div>
         <div className={styles.graphicsContainer}>

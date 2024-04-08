@@ -30,20 +30,20 @@ export default function Home() {
             <p>In selecting the colour palette for our application, we meticulously considered not only aesthetic appeal but also the psychological and physiological effects of colour on users.
             </p>
 
-            <p>Our primary colour, “Light green” (#9DB580), was chosen for its calming and soothing properties. Green, often associated with nature and growth, resonates with users on a subconscious level, fostering feelings of tranquility and balance. This aligns perfectly with our application's theme, where users seek solace and support in their journey. Additionally, light green is scientifically recognized as a neutral colour for the human eye, reducing visual strain and ensuring a comfortable viewing experience for our users.
+            <p>Our primary colour, <span className={styles.span}>“Light green” (#9DB580)</span>, was chosen for its calming and soothing properties. Green, often associated with nature and growth, resonates with users on a subconscious level, fostering feelings of tranquility and balance. This aligns perfectly with our application's theme, where users seek solace and support in their journey. Additionally, light green is scientifically recognized as a neutral colour for the human eye, reducing visual strain and ensuring a comfortable viewing experience for our users.
             </p>
             <div className={styles.cardContainer}>
               <ColourCard colourName="Light green" hexCode="#9DB580" />
             </div>
 
-            <p>Complementing our main color, we integrated “Light gray” (#D9D9D9) and “Background gray” (#F3F3F3) to provide contrast and balance to the overall design. These subtle hues create a harmonious backdrop, allowing the vibrant elements of the interface to stand out without overwhelming the user.
+            <p>Complementing our main colour, we integrated <span className={styles.span}>“Light gray” (#D9D9D9)</span> and <span className={styles.span}>“Background gray” (#F3F3F3)</span> to provide contrast and balance to the overall design. These subtle hues create a harmonious backdrop, allowing the vibrant elements of the interface to stand out without overwhelming the user.
             </p>
             <div className={styles.cardContainer}>
               <ColourCard colourName="Light gray" hexCode="#D9D9D9" />
               <ColourCard colourName="Background gray" hexCode="#F3F3F3" />
             </div>
 
-            <p>Meanwhile, the inclusion of “Normal green” (#627952), “Dark green” (#465939), “Black green” (#3F4636), “Brown” (#705F44), and “Black” (#000000) adds depth and richness to our palette. By incorporating these green and earthy tones, we aim to evoke a sense of grounding and reassurance, reinforcing our commitment to supporting users through their journey with our application.
+            <p>Meanwhile, the inclusion of <span className={styles.span}>“Normal green” (#627952)</span>, <span className={styles.span}>“Dark green” (#465939)</span>, <span className={styles.span}>“Black green” (#3F4636)</span>, <span className={styles.span}>“Brown” (#705F44)</span>, and <span className={styles.span}>“Black” (#000000)</span> adds depth and richness to our palette. By incorporating these green and earthy tones, we aim to evoke a sense of grounding and reassurance, reinforcing our commitment to supporting users through their journey with our application.
             </p>
             <div className={styles.cardContainer}>
               <ColourCard colourName="Normal green" hexCode="#627952" />
@@ -53,7 +53,7 @@ export default function Home() {
               <ColourCard colourName="Black" hexCode="#000000" />
             </div>
 
-            <p>Furthermore, the choice of “Primary white” (#FFFFFF) and “Light beige” (#EEE1CC) serves to enhance readability and contrast, ensuring that essential information is easily accessible and legible. White represents purity and simplicity, while the beige adds a nice touch of warmth and softness to the overall aesthetic.
+            <p>Furthermore, the choice of <span className={styles.span}>“Primary white” (#FFFFFF)</span> and <span className={styles.span}>“Light beige” (#EEE1CC)</span> serves to enhance readability and contrast, ensuring that essential information is easily accessible and legible. White represents purity and simplicity, while the beige adds a nice touch of warmth and softness to the overall aesthetic.
             </p>
             <div className={styles.cardContainer}>
               <ColourCard colourName="Primary white" hexCode="#FFFFFF" />

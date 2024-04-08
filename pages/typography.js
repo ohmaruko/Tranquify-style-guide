@@ -24,7 +24,7 @@ export default function Home() {
             <p>1234567890</p>
           </div>
           <div className={styles.quicksandText}>
-            <span className={styles.boldText}>Quicksand</span> is chosen as the logo font because of its friendly style. The rounded style of the font compliments well with our logo and mascots, which also have a smooth and rounded shapes. Its smooth curves and clean look convey a sense of calmness, inclusiveness, and approachability, which align well with our mood tracking and meditation app.  
+            <span className={styles.boldText}>Quicksand</span> is chosen as the logo font because of its friendly style. The rounded style of the font compliments well with our logo and mascots, which also have smooth and rounded shapes. Its smooth curves and clean look convey a sense of calmness, inclusiveness, and approachability, which align well with our mood tracking and meditation app.  
           </div>
         </div>
         <div className={styles.logoFontUsage}>
@@ -51,7 +51,7 @@ export default function Home() {
             <p>1234567890</p>
           </div>
             <div className={styles.quicksandText}>
-              <span className={styles.boldText}>DM Sans</span> is chosen as the body font because of its great readability. Its clear letter forms allows easy-reading and stress-free experience, crucial for users engaging with mood tracking and meditation content. DM Sans also provides a comfortable reading experience across different devices, enhancing the usability of our app.
+              <span className={styles.boldText}>DM Sans</span> is chosen as the body font because of its great readability. Its clear letter forms allows for easy-reading and a stress-free experience, crucial for users engaging with mood tracking and meditation content. DM Sans also provides a comfortable reading experience across different devices, enhancing the usability of our app.
             </div>
         </div>
         <div className={styles.bodyFontUsage}>
