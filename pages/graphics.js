@@ -38,20 +38,20 @@ export default function Home() {
         </div>
 
         <div className={styles.graphicsContainer}>
-  <div className={styles.graphics}>
-    {mascots.map((e, index) => (
-      <Image key={index} src={e} width={80} height={100} alt={mascotsAltText[index]} />
-    ))}
-  </div>
-  <div className={styles.graphics}>
-    {colours.map((e, index) => (
-      <div key={index} className={styles.paletteContainer}>
-        <div className={styles.palette} style={{ backgroundColor: e }}></div>
-        <p>{e}</p>
-      </div>
-    ))}
-  </div>
-</div>
+          <div className={styles.graphics}>
+            {mascots.map((e, index) => (
+              <Image key={index} src={e} width={80} height={100} alt={mascotsAltText[index]} />
+            ))}
+          </div>
+          <div className={styles.graphics}>
+            {colours.map((e, index) => (
+              <div key={index} className={styles.paletteContainer}>
+                <div className={styles.palette} style={{ backgroundColor: e }}></div>
+                <p>{e}</p>
+              </div>
+            ))}
+          </div>
+        </div>
 
         <div className={styles.description}>
           <div className={styles.category}>
@@ -104,6 +104,32 @@ export default function Home() {
             <div className={styles.iconsItemsContainer}>
               <Image src={'/images/settingAccount.svg'} width={268} height={71} alt="Account Settings Button" />
               <Image src={'/images/settingFavourites.svg'} width={268} height={71} alt="Setting Favourites Button" />
+            </div>
+          </div>
+        </div>
+        <div className={styles.description}>
+          <div className={styles.category}>
+            <p>Photographs</p>
+          </div>
+          <div className={styles.text}>
+            <p>Photographs are used as thumbnails for meditation content, 
+              arranged within square containers of two different sizes. 
+              The corners are gently rounded, ensuring the easy recognition as 
+              clickable cards and enhancing accessibility for users.
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.graphicsContainer}>
+          <div className={`${styles.graphics} ${styles.photographsContainer}`}>
+            <div className={styles.photographs01}>
+              <Image src={'/images/photo01.svg'} width={430} height={112} alt="Meditation card Example" />
+              <Image src={'/images/photo02.svg'} width={430} height={112} alt="Meditation card Example" />
+            </div>
+            <div className={styles.photographs02}>
+              <Image src={'/images/photo03.svg'} width={128} height={166} alt="Meditation card Example" />
+              <Image src={'/images/photo04.svg'} width={128} height={166} alt="Meditation card Example" />
+              <Image src={'/images/photo05.svg'} width={128} height={166} alt="Meditation card Example" />
             </div>
           </div>
         </div>
