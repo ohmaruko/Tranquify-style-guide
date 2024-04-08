@@ -1,0 +1,65 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: var(--font-body);
+}
+.title {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 52px;
+    font-size: var(--font-logo);
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 73px;
+}
+.category {
+    font-weight: bold;
+}
+
+.graphics {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.palette {
+    width: 80px;
+    height: 80px;
+}
+
+.cardContainer {
+    display: flex;
+    background-color: var(--background-gray);
+    margin: 2rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    border-radius: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+    padding: 3rem;
+    background-color: var(--background-gray);
+    border-radius: 30px;
+}
+
+.examples {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 3rem;
+    background-color: var(--background-gray);
+    border-radius: 30px;
+    /* width: 60%; */
+    gap: 2rem;
+}

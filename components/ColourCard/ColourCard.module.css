@@ -1,0 +1,29 @@
+.colourCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; */
+    margin: auto;
+  }
+  
+  .colourPreview {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid var(--light-gray);
+  }
+  
+  .colourName {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+.hexCode {
+    margin-top: -0.5rem;
+}
+  
