@@ -69,16 +69,22 @@ export default function Home() {
         <div className={styles.graphicsContainer}>
           <div className={styles.icons}>
             <p className={styles.iconText}>Navigation Bar</p>
-            <p className={styles.iconDescription}>Navigation bar icons represent different pages within the app,
-              making it easier for users to navigate to each page.</p>
+            <div className={styles.iconDescription}>
+              <p>Navigation bar icons represent different pages within the app,
+                making it easier for users to navigate to each page.</p>
+              <p>Size: 40px x 40px</p>
+            </div>
             <Image src={'/images/navbar.svg'} width={430} height={94} alt="Home Icon" />
           </div>
           <div className={styles.icons}>
             <p className={styles.iconText}>Mood Tracker Questions</p>
-            <p className={styles.iconDescription}>
-              On the Mood Tracker page, users are presented with a series of questions to answer.
+            <div className={styles.iconDescription}>
+              <p>On the Mood Tracker page, users are presented with a series of questions to answer.
               These questions feature icon options that users can quickly select to indicate
               their mood, stress level, and other parameters.</p>
+              <p>Mood Icon Size: 55px x 55px</p>
+              <p>Stress/Sleep Level Icons Size : 52px x 52px</p>
+            </div>
             <div className={styles.graphics}>
               {
                 moods.map((e, index) => {
@@ -96,11 +102,14 @@ export default function Home() {
           </div>
           <div className={styles.icons}>
             <p className={styles.iconText}>Setting Menu</p>
-            <p className={styles.iconDescription}>
-              The Settings page contains eight setting menus,
-              each accompanied by icons on their respective buttons.
-              These icons help users easily locate the setting option they desire.
-            </p>
+            <div className={styles.iconDescription}>
+              <p>
+                The Settings page contains eight setting menus,
+                each accompanied by icons on their respective buttons.
+                These icons help users easily locate the setting option they desire.
+              </p>
+              <p>Icon Size: 18px x 18px</p>
+            </div>
             <div className={styles.iconsItemsContainer}>
               <Image src={'/images/settingAccount.svg'} width={268} height={71} alt="Account Settings Button" />
               <Image src={'/images/settingFavourites.svg'} width={268} height={71} alt="Setting Favourites Button" />
@@ -122,10 +131,12 @@ export default function Home() {
 
         <div className={styles.graphicsContainer}>
           <div className={`${styles.graphics} ${styles.photographsContainer}`}>
+            <p>Small Thumbnail Size: 88px x 88px</p>
             <div className={styles.photographs01}>
               <Image src={'/images/photo01.svg'} width={430} height={112} alt="Meditation card Example" />
               <Image src={'/images/photo02.svg'} width={430} height={112} alt="Meditation card Example" />
             </div>
+            <p>Large Thumbnail Size: 128px x 128px</p>
             <div className={styles.photographs02}>
               <Image src={'/images/photo03.svg'} width={128} height={166} alt="Meditation card Example" />
               <Image src={'/images/photo04.svg'} width={128} height={166} alt="Meditation card Example" />
