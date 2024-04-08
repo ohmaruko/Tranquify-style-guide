@@ -11,6 +11,10 @@
     margin-bottom:10px;
 }
 
+.main a {
+    color: var(--dark-green);
+}
+
 .referencesTitle {
     font-family: 'Quicksand', sans-serif;
     margin-top: 52px;
