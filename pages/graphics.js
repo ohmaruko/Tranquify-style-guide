@@ -16,6 +16,10 @@ export default function Home() {
     <>
       <Head>
         <title>Graphics</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Header />
       <main className={styles.main}>
