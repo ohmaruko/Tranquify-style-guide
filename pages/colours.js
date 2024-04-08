@@ -68,21 +68,26 @@ export default function Home() {
 
         <div className={styles.description}>
           <div className={styles.category}>
-            <p>Contrast Checker Sample Results</p>
+            <p>Contrast Checker Results <br></br>(on our main combinations)</p>
           </div>
 
           <div className={styles.gallery}>
             <Image src="/images/cc-1.png" width={200} height={300} alt="Contrast Checker Sample Results" />
+            <p>"Black green" against "Background gray" : <br></br><br></br>This combination meets accessibility guidelines.</p>
             <Image src="/images/cc-2.png" width={200} height={300} alt="Contrast Checker Sample Results" />
+            <p>"Black" against "Light green" : <br></br><br></br>This combination meets accessibility guidelines.</p>
             <Image src="/images/cc-3.png" width={200} height={300} alt="Contrast Checker Sample Results" />
+            <p>"Black" against "Light beige" : <br></br><br></br>This combination meets accessibility guidelines.</p>
             <Image src="/images/cc-4.png" width={200} height={300} alt="Contrast Checker Sample Results" />
+            <p>"Black" against "Light gray" : <br></br><br></br>This combination meets accessibility guidelines.</p>
             <Image src="/images/cc-5.png" width={200} height={300} alt="Contrast Checker Sample Results" />
+            <p>"Black" against "Primary white" : <br></br><br></br>This combination meets accessibility guidelines.</p>
           </div>
         </div>
 
         <div className={styles.description}>
           <div className={styles.category}>
-            <p>Visual Examples</p>
+            <p>Button variations and states (examples)</p>
           </div>
 
           <div className={styles.examples}>
@@ -90,6 +95,18 @@ export default function Home() {
             <Image src="/images/brown-buttons.svg" width={200} height={300} alt="buttons" />
             <Image src="/images/green-arrows.svg" width={100} height={200} alt="arrows" />
             <Image src="/images/brown-arrows.svg" width={100} height={200} alt="arrows" />
+          </div>
+        </div>
+
+        <div className={styles.description}>
+          <div className={styles.category}>
+            <p>Text on solid colour backgrounds (examples)</p>
+          </div>
+
+          <div className={styles.examples}>
+            <Image src="/images/text-on-solid-bg.svg" width={200} height={300} alt="text on solid example" />
+            <Image src="/images/fav-button-example.svg" width={200} height={300} alt="favourites buttons" />
+            <Image src="/images/meditations-example.svg" width={200} height={300} alt="meditation example" />
           </div>
         </div>
 
