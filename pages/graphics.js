@@ -36,29 +36,23 @@ export default function Home() {
             </p>
           </div>
         </div>
+
         <div className={styles.graphicsContainer}>
-          <div className={styles.graphics}>
-            {
-              mascots.map((e, index) => {
-                return (
-                  <Image src={e} width={80} height={100} alt={mascotsAltText[index]} />
-                )
-              })
-            }
-          </div>
-          <div className={styles.graphics}>
-            {
-              colours.map((e) => {
-                return (
-                  <div>
-                    <div className={styles.palette} style={{ backgroundColor: e }}></div>
-                    <p>#A7BF87</p>
-                  </div>
-                )
-              })
-            }
-          </div>
-        </div>
+  <div className={styles.graphics}>
+    {mascots.map((e, index) => (
+      <Image key={index} src={e} width={80} height={100} alt={mascotsAltText[index]} />
+    ))}
+  </div>
+  <div className={styles.graphics}>
+    {colours.map((e, index) => (
+      <div key={index} className={styles.paletteContainer}>
+        <div className={styles.palette} style={{ backgroundColor: e }}></div>
+        <p>{e}</p>
+      </div>
+    ))}
+  </div>
+</div>
+
         <div className={styles.description}>
           <div className={styles.category}>
             <p>Icons</p>
