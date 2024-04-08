@@ -18,7 +18,9 @@ export default function Home() {
         <h1 className={styles.title}>Logos</h1>
         <div className={styles.description}>
           <div className={styles.text}>
-            <p>description here</p>
+            <p>Tranquify's logo features a cloud-like shape, embodying the essence of our app aimed at support users' mental well-being. 
+              With closed eyes and a serene smile, the logo evokes feelings of calmness and relaxation. 
+              To ensure versatility across different sizes, the cloud-shaped character is depicted showing only its face within a square frame.</p>
           </div>
           <div className={styles.colour}>
             <div className={styles.palette}></div>
