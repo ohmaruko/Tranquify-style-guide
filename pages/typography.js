@@ -64,12 +64,12 @@ export default function Home() {
             <div className={styles.fontRow}>
               <div>H2</div>
               <div className={`${styles.boldText} ${styles.subheading}`}>Subheading</div>
-              <div className={styles.boldText}>Bold 20pts</div>
+              <div>Bold 20pts</div>
             </div>
             <div className={styles.fontRow}>
               <div>Paragraph</div>
               <div className={styles.boldText}>Bold Body</div>
-              <div className={styles.boldText}>Bold 16pts</div>
+              <div>Bold 16pts</div>
               <div></div>
               <div>Body</div>
               <div>Regular 16pts</div>
@@ -80,7 +80,7 @@ export default function Home() {
             <div className={styles.fontRow}>
               <div>Links</div>
               <div className={styles.link}>Continue as guest</div>
-              <div className={styles.boldText}>Bold 16pts</div>
+              <div>Bold 16pts</div>
             </div>
           </div>
         </div>
