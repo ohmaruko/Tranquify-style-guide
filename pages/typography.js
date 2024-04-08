@@ -27,6 +27,16 @@ export default function Home() {
             <span className={styles.boldText}>Quicksand</span> is chosen as the logo font because of its friendly style. The rounded style of the font compliments well with our logo and mascots, which also have smooth and rounded shapes. Its smooth curves and clean look convey a sense of calmness, inclusiveness, and approachability, which align well with our mood tracking and meditation app.  
           </div>
         </div>
+        <div className={styles.language}>
+          <div>
+            <p className={styles.english}>English</p>
+            <p className={styles.quicksandEnglish}>Whereas disregard and contempt for human rights have resulted</p>
+          </div>
+          <div>
+            <p className={styles.french}>French</p>
+            <p className={styles.quicksandFrench}>Considérant que la méconnaissance et le mépris des droits de</p>
+          </div>
+        </div>
         <div className={styles.logoFontUsage}>
           <div className={styles.logo}>
             <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 120 120" fill="none">
@@ -54,6 +64,18 @@ export default function Home() {
               <span className={styles.boldText}>DM Sans</span> is chosen as the body font because of its great readability. Its clear letter forms allows for easy-reading and a stress-free experience, crucial for users engaging with mood tracking and meditation content. DM Sans also provides a comfortable reading experience across different devices, enhancing the usability of our app.
             </div>
         </div>
+
+        <div className={styles.language}>
+          <div>
+            <p className={styles.english}>English</p>
+            <p className={styles.dmSansEnglish}>Whereas disregard and contempt for human rights have resulted</p>
+          </div>
+          <div>
+            <p className={styles.french}>French</p>
+            <p className={styles.dmSansFrench}>Considérant que la méconnaissance et le mépris des droits de</p>
+          </div>
+        </div>
+
         <div className={styles.bodyFontUsage}>
           <div className={styles.fontTable}>
             <div className={styles.fontRow}>

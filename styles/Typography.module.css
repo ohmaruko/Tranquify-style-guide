@@ -114,3 +114,30 @@
 .main h2 {
     margin: 0;
 }
+
+/* language */
+.language {
+    display: flex;
+    text-align: center;
+    gap: 3rem;
+    margin-top: 42px;
+    justify-content: center;
+}
+
+.english {
+    font-size: var(--font-subheading);
+    font-weight: bold;
+}
+
+.quicksandEnglish {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.french {
+    font-size: var(--font-subheading);
+    font-weight: bold;
+}
+
+.quicksandFrench {
+    font-family: 'Quicksand', sans-serif;
+}
